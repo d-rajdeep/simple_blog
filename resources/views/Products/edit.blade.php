@@ -22,7 +22,7 @@
     </div>
     <div class="container">
         <div class="d-flex justify-content-between align-center my-5">
-            <div class="h2">New Product</a></div>
+            <div class="h2">Edit Post</a></div>
     </div>
 
 {{-- alert message --}}
@@ -53,7 +53,7 @@
 
                         <div class="form-group">
                             <label>Description</label>
-                            <textarea class="form-control" rows="4" name="description"{{ old('description',$product->description)}}>
+                            <textarea class="form-control" rows="4" name="description">{{ old('description',$product->description)}}>
                             </textarea>
                              @if($errors->has('description'))
                         <span class="text-danger">{{ $error->first('description')}}</span>

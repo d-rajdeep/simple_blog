@@ -45,6 +45,7 @@
                 <img src="products/{{ $product->image}}" class="rounded-circle" width="50" height="50">
             </td>
             <td>
+                <a href="products/{{ $product->id }}/show" class="btn btn-success btn-sm">View</a>
                 <a href="products/{{ $product->id }}/edit" class="btn btn-dark btn-sm">Edit</a>
                 <a href="products/{{ $product->id }}/delete" class="btn btn-danger btn-sm">Delete</a>
             </td>

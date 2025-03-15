@@ -53,7 +53,7 @@
 
                         <div class="form-group">
                             <label>Description</label>
-                            <textarea class="form-control" rows="4" name="description">{{ old('description',$product->description)}}>
+                            <textarea class="form-control" rows="4" name="description">{{ old('description',$product->description)}}
                             </textarea>
                              @if($errors->has('description'))
                         <span class="text-danger">{{ $error->first('description')}}</span>

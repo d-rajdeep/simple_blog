@@ -68,7 +68,7 @@ class ProductController extends Controller
     //    $product->save();
     //    return back()->withSuccess('Post Updated Successfully !');
     // }
-
+//update
     public function update(Request $request, $id)
     {
         $product = Product::find($id);

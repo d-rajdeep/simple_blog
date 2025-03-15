@@ -39,7 +39,7 @@
                 <form method="POST" action="/products/store" enctype="multipart/form-data">
                     @csrf
                     <div class="form-group">
-                        <label>Name</label>
+                        <label>Title</label>
                         <input type="text" name="name" class="form-control">
                         <div class="text-danger">
                             @error('name')
